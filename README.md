@@ -71,3 +71,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### course-point-one branch
 This branch has code till basis react, useState(), passing props from parent to child and vice-versa, two way binding, controlled vs uncontrolled components
+
+
+### course-point-two branch
+This branch has code that deals with react conditional rendering, conditional styles, styled components, css modules, dynamic inline styles
+
+
+### course-point-three branch
+This branch has code that deals with small project to demonstrate basis react pattern with useState() hook
+
+
+
+### course-point-four branch
+This branch has code that deals with example of fragments portals and refs
+
+
+### course-point-five branch
+This branch has code that deals with example of useEffect(), useReducer(), userImperativeHandle(), useContext(), React.forwardRef()
+
+
+### course-point-six branch
+This branch has code has a complete projects covering all hooks and react patterns covered up until course-point-five
