@@ -7,15 +7,17 @@ const MealItemForm = (props) => {
   const inputAmountRef = useRef();
   const submitHandler = (event) => {
     event.preventDefault();
-    const enteredAmount = +inputAmountRef.current.value;
+    const enteredAmount = inputAmountRef.current.value;
+    const enteredAmountNum = +enteredAmount;
     if (
       enteredAmount.trim().length === 0 ||
-      enteredAmount < 1 ||
-      enteredAmount > 5
+      enteredAmountNum < 1 ||
+      enteredAmountNum > 5
     ) {
       setFormIsValid(false);
       return;
     }
+    props.onAddToCart(enteredAmountNum);
   };
 
   return (
